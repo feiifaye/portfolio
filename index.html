@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faye Xi (Fei Xi) — Independent Artist</title>
+  <meta name="description" content="Selected work by Faye Xi (Fei Xi), an independent artist working across installation, painting and spatial practice.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23fafafa'/%3E%3Cpath d='M8 25V7h15M8 15h11' fill='none' stroke='%23222222' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <a class="identity" href="#work">Faye Xi <span>(Fei Xi)</span></a>
+    <nav aria-label="Main navigation"><a href="#work" data-page="work" aria-current="page">Work</a><a href="#visual-design" data-page="visual-design">Visual design</a><a href="#info" data-page="info">Info</a><a href="#research" data-page="research">Research</a></nav>
+  </header>
+  <main id="main">
+    <section id="work" class="view work-view" aria-label="Selected work">
+      <div class="gallery" id="gallery"></div>
+      <aside class="work-caption" aria-label="Current project">
+        <div class="caption-line"><span id="current-title">painting</span><span id="current-medium">Project 01</span></div>
+        <p class="practice-intro">Faye Xi (Fei Xi) is an independent artist working across installation, painting and spatial practice.</p>
+      </aside>
+    </section>
+    <section id="info" class="view text-view" hidden aria-label="About the artist">
+      <div class="section-heading"><span>1.</span><h1>Introduction</h1></div>
+      <p class="wide-intro">Faye Xi (Fei Xi) is an independent artist from Sichuan, China, with a background in sustainable architecture and landscape design. Working across installation, painting and site-responsive practice, she explores how landscapes are experienced through the body, and how attention to materials and changing conditions can open different ways of sensing time.</p>
+      <div class="info-images"><div class="info-large"><img src="assets/studio-practice.webp" alt="Faye working within a red mesh installation" width="878" height="1172" loading="lazy"></div><div class="info-small"><img src="assets/faye-portrait.webp" alt="Portrait of Faye Xi (Fei Xi)" width="1365" height="2048" loading="lazy"></div></div>
+      <div class="section-heading"><span>2.</span><h2>Practice & background</h2></div>
+      <div class="info-grid"><div class="info-column"><span>2.1</span><h3>Areas of practice</h3><p>Installation<br>Painting<br>Spatial practice<br>Site-responsive interventions</p></div><div class="info-column"><span>2.2</span><h3>Education</h3><p>MSc Sustainable Architecture<br>and Landscape Design<br>Politecnico di Milano</p><p>Exchange studies<br>University of Queensland, 2025</p></div><div class="info-column"><span>2.3</span><h3>Lines of enquiry</h3><p>Landscape & ecology<br>Time & impermanence<br>Body & perception<br>Material & place</p></div></div>
+      <p class="closing-copy">Walking, waiting and listening form a quiet thread through her practice. She is preparing to begin doctoral study in art at Massey University, Aotearoa New Zealand.</p>
+      <footer><span>Faye Xi (Fei Xi)</span><span>Independent artist</span><span>© 2026</span></footer>
+    </section>
+    <section id="research" class="view text-view" hidden aria-label="Research">
+      <div class="section-heading"><span>1.</span><h1>Time / Site / Body</h1></div>
+      <p class="wide-intro">How might artistic practice cultivate an awareness of slow and layered time? Through walking, waiting, listening and subtle interventions, my research explores how we perceive changing landscapes—and where these ways of attending reach their limits.</p>
+      <div class="research-layout"><div class="research-copy"><h2>A practice in formation</h2><p>Informed by phenomenology, Daoist philosophy and environmental humanities, this enquiry develops through embodied encounters with particular places.</p><p>Temporary installations, moving images, field notes and reflective writing offer ways to return to these encounters, without fixing them into a single account.</p><p class="secondary">Proposed doctoral research<br>Massey University, Aotearoa New Zealand</p></div></div>
+      <div class="section-heading"><span>2.</span><h2>Ways of attending</h2></div>
+      <div class="research-methods"><div><h3>Walking</h3><p>Following paths, revisiting sites, noticing what shifts.</p></div><div><h3>Waiting</h3><p>Remaining with a place as light, weather and rhythms change.</p></div><div><h3>Listening</h3><p>Attending to the body and to what a site makes perceptible.</p></div></div>
+      <footer><span>Faye Xi (Fei Xi)</span><span>Research in progress</span><span>© 2026</span></footer>
+    </section>
+
+    <section id="visual-design" class="view visual-design-view" hidden aria-label="Visual design"><button id="design-slideshow" class="design-slideshow" type="button" aria-label="Orange Soda summer carnival poster. Image 1 of 4. Show next image."><img src="assets/visual-design-01.webp" alt="Orange Soda summer carnival poster" width="599" height="900"><img src="assets/visual-design-02.webp" alt="Queenstown Queer Film Festival poster" width="1447" height="2048" hidden><img src="assets/visual-design-03.webp" alt="Queenstown Queer Film Festival programme" width="2048" height="1440" hidden><img src="assets/visual-design-04.webp" alt="Funeral experimental drama poster" width="1606" height="2048" hidden></button></section>
+  </main>
+  <dialog id="project-dialog" aria-labelledby="project-title"><div class="detail-top"><span>Selected work</span><button id="close-project" type="button">Close</button></div><div class="detail-grid"><div id="detail-image" class="image-space"><span>Project image</span><span id="detail-number"></span></div><div class="detail-copy"><h1 id="project-title"></h1><p id="project-meta" class="secondary"></p><p id="project-description"></p><div class="detail-pagination"><button type="button" id="previous-project">Previous</button><span id="project-count"></span><button type="button" id="next-project">Next</button></div></div></div></dialog>
+  <script src="content.js"></script><script src="app.js"></script>
+</body>
+</html>
